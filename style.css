@@ -1,0 +1,90 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+:root{
+--Red: hsl(0, 100%, 74%);
+--Green: hsl(154, 59%, 51%);
+--Blue: hsl(248, 32%, 49%);
+--Dark-Blue: hsl(249, 10%, 26%);
+--Grayish-Blue: hsl(246, 25%, 77%);
+}
+body{
+    padding: 3rem;
+}
+
+.container{
+    font-style: url(https://fonts.google.com/specimen/Poppins);
+    background-image: url(bg-intro-desktop.png);
+    box-sizing: border-box;
+    background-color: var(--Red);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cont1{
+    margin: 8rem;
+    margin-left: 8rem;
+    margin-right: 1rem;
+}
+.cont2{
+    margin: 6rem;
+    margin-right: 7rem;
+    margin-left: 2rem;
+}
+h1{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    color: white;
+}
+p{
+    color: white;
+}
+
+button{
+    color: aliceblue;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 1px 1px 1px;
+    border-radius: 10px;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin-left: .5rem;
+    margin-right: 1.5rem;
+    margin-bottom: .5rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    width: 100%;
+    background-color: var(--Blue);
+}
+
+.form{
+    width: 90%;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input[type=text], input[type=password], input[type=submit]{
+    width: 100%;
+    display: inline-block;
+    padding: 12px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: .5px .5px .5px .5px;
+    margin: .5rem 0rem;
+}
+input[type=submit]{
+    background-color: var(--Green);
+    color: white;
+}
+h6{
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    color: var(--Grayish-Blue);
+}
+span{
+    color: var(--Red);
+}
